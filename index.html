@@ -3,7 +3,7 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width"/>
 <meta name="builder" content="Stronglify"/>
-<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/367/favicon-1789772821.svg"/>
+<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/367/favicon-1789774245.svg"/>
 <title>Bazuka — Helado en serio</title>
 <meta name="description" content="Helado de fruta y leche entera, hecho cada mañana en tandas pequeñas. Para comerlo en la banca de afuera o llevarlo a la fiesta."/>
 <meta name="robots" content="index"/>
@@ -20,16 +20,24 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
 <body class="bg-blue font-sans text-[20px] font-medium leading-normal text-ink md:text-[22px]">
   <header class="bg-blue">
   <div class="mx-auto flex min-h-[112px] max-w-[1320px] flex-wrap items-center justify-between gap-6 px-4 py-5 md:px-10 md:py-0">
-    <a href="">
-      <img src="" alt="Bazuka" class="h-11 w-auto md:h-[52px]"/>
+    <a href="./">
+      <img src="https://placehold.co/208x52" alt="Bazuka" class="h-11 w-auto md:h-[52px]"/>
     </a>
     <button type="button" id="menu-toggle" class="ml-auto inline-block cursor-pointer rounded-full border-0 bg-yellow px-[30px] py-[14px] text-[20px] font-black text-ink shadow-btn-sm transition duration-200 hover:bg-orange active:translate-x-1 active:translate-y-1 active:shadow-btn-sm-active lg:hidden" aria-expanded="false" aria-controls="menu-principal">Menú</button>
     <nav id="menu-principal" class="order-3 hidden w-full lg:order-none lg:block lg:w-auto" aria-label="Principal">
       <ul class="flex flex-col flex-wrap pb-4 lg:flex-row lg:gap-10 lg:pb-0">
         
+        <li><a href="./" class="block py-2.5 text-[30px] font-black transition-colors duration-200 hover:text-cream md:text-[36px] lg:inline lg:py-0 lg:text-[22px] lg:font-extrabold">Sabores</a></li>
+        
+        <li><a href="page.html" class="block py-2.5 text-[30px] font-black transition-colors duration-200 hover:text-cream md:text-[36px] lg:inline lg:py-0 lg:text-[22px] lg:font-extrabold">Ingredientes</a></li>
+        
+        <li><a href="article.html" class="block py-2.5 text-[30px] font-black transition-colors duration-200 hover:text-cream md:text-[36px] lg:inline lg:py-0 lg:text-[22px] lg:font-extrabold">Cómo pedir</a></li>
+        
+        <li><a href="blank.html" class="block py-2.5 text-[30px] font-black transition-colors duration-200 hover:text-cream md:text-[36px] lg:inline lg:py-0 lg:text-[22px] lg:font-extrabold">Opiniones</a></li>
+        
       </ul>
     </nav>
-    <a href="" class="hidden rounded-full bg-yellow px-[30px] py-[14px] text-[20px] font-black text-ink shadow-btn-sm transition duration-200 hover:bg-orange active:translate-x-1 active:translate-y-1 active:shadow-btn-sm-active md:inline-block"></a>
+    <a href="#" class="hidden rounded-full bg-yellow px-[30px] py-[14px] text-[20px] font-black text-ink shadow-btn-sm transition duration-200 hover:bg-orange active:translate-x-1 active:translate-y-1 active:shadow-btn-sm-active md:inline-block">Pedir</a>
   </div>
 </header>
 
@@ -202,12 +210,51 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
   <div class="mx-auto max-w-[1320px] px-4 md:px-10">
     <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
       <div>
-        <a href="" class="text-outline text-[60px] leading-none tracking-[-1px] [--sc:#799EFF] [--so:7px] md:text-[76px]"></a>
-        <p class="mt-5 max-w-[20ch] text-[24px] font-bold"></p>
+        <a href="./" class="text-outline text-[60px] leading-none tracking-[-1px] [--sc:#799EFF] [--so:7px] md:text-[76px]">Bazuka</a>
+        <p class="mt-5 max-w-[20ch] text-[24px] font-bold">Helado artesanal hecho en serio.</p>
       </div>
       
+      <nav aria-label="Sabores">
+        <h4 class="mb-[18px] text-[28px] font-black text-orange">Sabores</h4>
+        <ul class="grid gap-3">
+          
+          <li><a href="#" class="text-[22px] font-bold transition-colors duration-200 hover:text-yellow">Todos los sabores</a></li>
+          
+          <li><a href="#" class="text-[22px] font-bold transition-colors duration-200 hover:text-yellow">De temporada</a></li>
+          
+          <li><a href="#" class="text-[22px] font-bold transition-colors duration-200 hover:text-yellow">Paletas</a></li>
+          
+        </ul>
+      </nav>
+      
+      <nav aria-label="Ayuda">
+        <h4 class="mb-[18px] text-[28px] font-black text-orange">Ayuda</h4>
+        <ul class="grid gap-3">
+          
+          <li><a href="#" class="text-[22px] font-bold transition-colors duration-200 hover:text-yellow">Cómo pedir</a></li>
+          
+          <li><a href="#" class="text-[22px] font-bold transition-colors duration-200 hover:text-yellow">Envíos</a></li>
+          
+          <li><a href="#" class="text-[22px] font-bold transition-colors duration-200 hover:text-yellow">Alérgenos</a></li>
+          
+        </ul>
+      </nav>
+      
+      <nav aria-label="Bazuka">
+        <h4 class="mb-[18px] text-[28px] font-black text-orange">Bazuka</h4>
+        <ul class="grid gap-3">
+          
+          <li><a href="#" class="text-[22px] font-bold transition-colors duration-200 hover:text-yellow">Opiniones</a></li>
+          
+          <li><a href="#" class="text-[22px] font-bold transition-colors duration-200 hover:text-yellow">Contacto</a></li>
+          
+          <li><a href="#" class="text-[22px] font-bold transition-colors duration-200 hover:text-yellow">Instagram</a></li>
+          
+        </ul>
+      </nav>
+      
     </div>
-    <p class="mt-20 text-[18px] font-bold"></p>
+    <p class="mt-20 text-[18px] font-bold">© 2026 Bazuka. Todos los derechos reservados.</p>
   </div>
 </footer>
 
